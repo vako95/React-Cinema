@@ -1,0 +1,68 @@
+.movieList {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.item {
+    flex: 0 0 auto;
+
+}
+
+.imgBlock {
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+.imgBox {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    transition: width 0.3s ease-in-out;
+}
+
+.imgBox:hover {
+    width: 255px;
+    height: auto;
+    object-fit: cover;
+}
+
+.imgList {
+
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(5, 5, 69);
+    opacity: 0.6;
+}
+
+.imgList :hover {
+
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(5, 5, 69);
+    opacity: 100;
+
+
+
+}
+
+.imgList p {
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+
+}
